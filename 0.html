@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Боровинский Владимир Иванович</title>
+<div class="b-marquee">
+  <div class="b-marquee__text">!!ВНИМАНИЕ!!!</div>
+</div>
+<div class="b-marquee b-marquee--rtl">
+  <div class="b-marquee__text">СПАСИБО ЗА ВНИМАНИЕ!!!</div>
+<link rel="stylesheet" type="text/css" href="stroka.css">
+</div>
+<head>
+<title>Javascript External Script</title>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<input type="button" onclick="Hello();" name="ok" value="Кликни меня">
+<body topmargin="100" bottommargin="100" rightmargin="100" leftmargin="100" bgcolor="#FFFB73">
+<form name = "changecolorbutton">
+  <input type="button" name="but" value="КЛИКНИ МЕНЯ!!!" onMouseOver="mouseIn()" onMouseOut="mouseOut()">
+
+<script language="javascript">
+var default_color;
+function mouseIn() {
+  default_color = document.changecolorbutton.but.style.background;
+  document.changecolorbutton.but.style.background = "olive";
+}
+function mouseOut() {
+  document.changecolorbutton.but.style.background = default_color;
+}
+</script>
+
+        <!-- Раздел: Обо мне -->
+        <h1>Обо мне</h1>
+        Боровинский Владимир Иванович
+        студент группы 1406б
+<br><br>
+        <hr color="#080706" size=10 width=1000></hr>
+        <!-- Раздел: Увлечения -->
+        <h1>Увлечения</h1>
+        <ol type="I">
+            <li>кино и сериалы</li>
+            <li>Спорт:
+                <ol>
+                    <li> Хоккей</li>
+                    <li> Футбол</li>
+                </ol>
+            </li>
+        </ol>
+
+        <br>
+        <hr color="#080706" size=10 width=1000></hr>
+       
+        <table border="1" bordercolor="gold" width="100%"><caption>Таблица с картинками котов</caption>
+            <tr bgcolor="#e6e6e6">
+                    <td align="center"> 
+                        <img src="1.jpg" width="40%" height="40%">
+                        <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: medium;">кот 1</p>
+                    </td>
+                    <td align="center"> 
+                        <img src="2.jpg" width="40%" height="40%">
+                        <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: medium;">кот 2</p>
+                    </td>
+                    <tr bgcolor="#e6e6e6">
+                        <td align="center"> 
+                            <img src="3.jpg" width="40%" height="40%">
+                            <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: medium;">кот 3</p>
+                        </td>
+                        <td align="center"> 
+                            <img src="4.jpg" width="40%" height="40%">
+                            <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: medium;">кот 4</p>
+                        </td>
+            </tr>
+          </table>
+          <p>Я создал ссылку на свою страницу вконтакте</p>
+        <a href="https://vk.com/borov1k"><img src="6.jpg" width="13%" height="15%"></a>.
+        <p>Я создал ссылку на свою страницу в Tiktok</p>
+        <a href="https://www.instagram.com/borov1k_/"><img src="Instagram.jpg" width="13%" height="15%"></a>.
+ <head>
+	<title>Часы</title>
+	<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" >
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+  </head>	
+  <body>
+      <br>
+	 <div id='clock'>Тут будет текущее время</div> <br>
+	 <canvas height='480' width='480' id='myCanvas'></canvas>
+<script src = "clock.js"></script>
+<a href="#top" style="display:inline-block;position:fixed;
+       bottom:30px;left:30px;
+         padding:5px 10px;font-size:16px;
+        background:#ddd;
+        border-radius:15px">Наверх</a>
+<body bgcolor="#FFFFFF" text="#0a0a0a"
+	onload="window.setTimeout('getSecs()',1)">
+
+<script language="JavaScript">
+startday = new Date();
+clockStart = startday.getTime();
+
+function initStopwatch() {
+	var myTime = new Date();
+	var timeNow = myTime.getTime();
+	var timeDiff = timeNow - clockStart;
+	this.diffSecs = timeDiff/1000;
+	return(this.diffSecs); }
+
+function getSecs() {
+	var mySecs = initStopwatch();
+	var mySecs1 = ""+mySecs;
+	mySecs1= mySecs1.substring(0,mySecs1.indexOf(".")) + " secs.";
+	document.forms[0].timespent.value = mySecs1
+	window.setTimeout('getSecs()',1000); }
+</script>
+<form>
+  <p align="center"><strong>
+   Вы находитесь на этой странице уже:</strong></font>
+   <input type="text" size="9" name="timespent"></p>
+</form>
+        <link rel="stylesheet" type="text/css" href="2.css">
+</body>
+</html>
